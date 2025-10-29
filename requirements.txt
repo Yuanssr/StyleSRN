@@ -1,0 +1,17 @@
+colour==0.1.5
+easydict==1.9
+editdistance==0.8.1
+imgaug==0.4.0
+ipython==8.12.3
+lmdb==1.4.1
+lpips==0.1.4
+matplotlib==3.5.1
+numpy==2.3.4
+opencv_contrib_python==4.8.1.78
+opencv_python==4.8.1.78
+Pillow==9.5.0
+ptflops==0.7.3
+PyYAML==6.0.1
+scipy==1.16.3
+six==1.16.0
+timm==0.6.5
