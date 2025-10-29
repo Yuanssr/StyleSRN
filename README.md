@@ -19,7 +19,7 @@ Other possible Python packages are also needed, please refer to *requirements.tx
 
 
 
-##Recognizers
+## Recognizers
 
 In the main text, we use [CRNN](https://github.com/meijieru/crnn.pytorch), [MORAN](https://github.com/Canjie-Luo/MORAN_v2  ) and [ASTER](https://github.com/ayumiymk/aster.pytorch) to evaluate the accuracy improvement of the STISR method on downstream text recognition tasks. You can select different recognizers for evaluation by modifying the test command (e.g., `--test_model='ASTER'`). 
 You can also find pre-trained weights in their repository and don’t forget to modify the corresponding recognizer path in the `./config/super_resolution.yaml` file.
@@ -28,11 +28,11 @@ You can also find pre-trained weights in their repository and don’t forget to 
 
 
 ## Inference
-###Test on TextZoom
+### Test on TextZoom
 ```
 python test.py --mask --tpg PARSeq
 ```
-###Test on manually degraded STR datasets for generalization
+### Test on manually degraded STR datasets for generalization
 ```
 python test.py --mask --tpg PARSeq --general
 ```
